@@ -1,0 +1,10 @@
+name: Basic CI
+
+on: [push]
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: just saying hi
+        run: echo "hello from ${{ github.actor }}"
