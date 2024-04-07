@@ -8,4 +8,4 @@ private notes/workflows to learn ci/cd
 - Secrets and Variables
 - Add a respository secret
 
-add workflow_dispatch to enable manual actions startup
+add workflow_dispatch to enable manual actions startup(check secret.yaml file)
