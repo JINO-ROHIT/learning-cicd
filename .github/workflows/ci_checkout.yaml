@@ -1,0 +1,15 @@
+name: trying ci with checkout for running python files
+
+on: [push]
+
+jobs:
+  new-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checking out
+        uses: actions/checkout@v3
+
+      - name: hehe
+        run: |
+            pip install -r requirements.txt
+            python3 scripts/main.py
