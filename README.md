@@ -9,3 +9,5 @@ private notes/workflows to learn ci/cd
 - Add a respository secret
 
 add workflow_dispatch to enable manual actions startup(check secret.yaml file)
+
+Check the io.yaml file on how to set output for jobs
