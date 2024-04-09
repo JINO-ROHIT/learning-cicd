@@ -18,3 +18,6 @@ To enable branch protection, go to -
 2. branch name
 3. require status check
 4. enter the job name
+
+
+Use ghapi.yaml to use github api
